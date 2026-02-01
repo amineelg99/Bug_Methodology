@@ -13,10 +13,10 @@ Try:
 **Tip: The Paramalyzer Burp extension helps you track and remember all parameters seen on a host.**
 
  ### Path Traversal to Bypass Restrictions
-
-`POST /users/delete/victim_id          → 403`
-`POST /users/delete/my_id/..victim_id  → 200`
-
+```
+ POST /users/delete/victim_id          → 403
+ POST /users/delete/my_id/..victim_id  → 200
+```
  ### Change the Content-Type
 
 **Sometimes the backend processes requests differently depending on content type.**
