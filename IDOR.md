@@ -3,6 +3,7 @@
  ### Parameter Manipulation
 
  **Instead of:**
+ 
   `GET /api/albums?album_id=<album_id>`
 
 Try:
